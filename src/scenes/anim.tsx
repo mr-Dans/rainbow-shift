@@ -33,6 +33,8 @@ export default makeScene2D(function* (view) {
     />
   );
 
+
+  // Shift all colors in 3 cycles
   let cycles = 3;
   for(let j = 0; j < cycles; j++) {
     for(let i = 0; i < colors.length; i++) {
